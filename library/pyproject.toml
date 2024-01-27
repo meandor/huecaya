@@ -6,7 +6,7 @@ authors = ["Daniel Schruhl <danielschruhl@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "~3.9"
-pyspark = "3.1.1"
+pyspark = "3.2.2"
 requests = "^2.31.0"
 
 [tool.poetry.group.dev.dependencies]
