@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "de_identification_library"
+version = "0.1.0"
+description = "Library to use de-identification with a udf"
+authors = ["Daniel Schruhl <danielschruhl@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+pyspark = "3.1.1"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+pytest = "^7.4.3"
+ruff = "^0.1.9"
+types-requests = "^2.31.0.10"
+pytest-mock = "^3.12.0"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

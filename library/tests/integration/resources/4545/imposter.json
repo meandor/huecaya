@@ -1,0 +1,22 @@
+{
+  "port": 4545,
+  "protocol": "http",
+  "stubs": [
+    {
+      "meta": {
+        "dir": "stubs/1703947333386-1-1"
+      },
+      "predicates": [
+        {
+          "equals": {
+            "path": "/prompt",
+            "method": "POST",
+            "headers": {
+              "Content-Type": "application/json"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

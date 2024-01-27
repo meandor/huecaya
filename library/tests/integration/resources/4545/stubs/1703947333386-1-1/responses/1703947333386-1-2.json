@@ -1,0 +1,9 @@
+{
+  "is": {
+    "statusCode": 200,
+    "body": "{\"answer\": \"Peter Lustig\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
