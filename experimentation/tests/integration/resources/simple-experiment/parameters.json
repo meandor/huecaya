@@ -1,0 +1,8 @@
+{
+  "context_length": 4096,
+  "max_length": 10,
+  "temperature": [
+    0.0,
+    1.0
+  ]
+}

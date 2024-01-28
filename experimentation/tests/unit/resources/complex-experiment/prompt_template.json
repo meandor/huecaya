@@ -1,0 +1,7 @@
+{
+  "template": "foo: {bar}\n\nanswer: foobar {answer}\n",
+  "variables": [
+    "bar",
+    "answer"
+  ]
+}
