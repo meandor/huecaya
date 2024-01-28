@@ -1,0 +1,6 @@
+{
+  "template": "Defn: A person has a name. A name can consist of multiple words and titles. A name does not contain numbers. Abstract scientific concepts are not a person even if they have a name associated with them. Dates, times, adjectives and verbs are not a person.\n\nQ: Given the paragraph below, identify a list of possible persons and for each entry explain why it either is or is not a person:\n###\nParagaph: \"421337 externe Auftragsnummer: Diensthabender Arzt : Dr. med. Paola    Mertens, Dr. med. Peter Worms\"\n\nAnswer:\n1. 421337 externe Auftragsnummer | False | as this contains a number (421337)\n2. Diensthabender Arzt | False | as this is an adjective (Diensthabender) and a noun (Arzt)\n4. Dr. med. Paola Mertens | True | as this is a person with a name that follows the general format of a name\n5. Dr. med. Daniel Schruhl | True | as this is a person with a name that follows the general format of a name\n###\nParagraph: {sentence}\n\nAnswer:",
+  "variables": [
+    "sentence"
+  ]
+}

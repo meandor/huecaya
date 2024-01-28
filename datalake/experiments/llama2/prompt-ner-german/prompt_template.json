@@ -1,0 +1,6 @@
+{
+  "template": "Defn: Eine Entität ist eine Person. Eine Person hat einen Namen, der aus einem optionalen Titel oder einer Andrede, einem Vornamen und einem Nachnamen bestehen kann. Der Name einer Person kann aus mehreren Wörtern und Satzzeichen bestehen. Datum, Zeiten, Adjektive, Verben, Zahlen, Zahlenzeichen oder Kombinationen aus alle diesen sind keine Person.\n\nQ: Identifiziere alle möglichen Entitäten im unten stehenden Paragraphen. Begründe für jeden Eintrag, warum es sich hier um eine Entität handelt oder warum nicht.\n###\nParagaph: \"421337 externe Auftragsnummer: Diensthabender Arzt : Dr. med. Paola    Mertens, Dr. med. Peter Worms\"\n\nAntwort:\n1. 421337 | False | weil es eine Zahl ist und somit keine Person\n2. Auftragsnummer | False | weil es ein einfaches Nomen ist und kein Name, also keine Person\n3. Diensthabender Arzt | False | weil es ein Nomen mit einem adjektiv ist, also keine Person\n4. Dr. med. Paola Mertens | True | weil das eine diensthabende Ärztin ist, also eine Person\n5. Dr. med. Peter Worms | True | weil das ein diensthabender Arzt ist, also eine Person\n###\nParagraph: {sentence}\n\nAntwort:",
+  "variables": [
+    "sentence"
+  ]
+}

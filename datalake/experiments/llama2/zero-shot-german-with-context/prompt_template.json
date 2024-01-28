@@ -1,0 +1,6 @@
+{
+  "template": "Du bist ein Experte in Linguistik und extrahierst Namen von Personen aus Texten. Der Name kann aus einen Nachnamen und einem Vornamen bestehen. Namen können zusätzlich Titel oder eine Anrede beinhalten. Extrahiere aus dem unten stehenden Satz die Namen von Personen.\nSatz: '{sentence}'\nPersonen:",
+  "variables": [
+    "sentence"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "max_length": 100,
+  "temperature": [
+    0.0,
+    0.5,
+    0.9
+  ],
+  "context_length": 2048
+}

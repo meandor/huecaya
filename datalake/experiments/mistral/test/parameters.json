@@ -1,0 +1,5 @@
+{
+  "max_length": 50,
+  "temperature": 0.0,
+  "context_length": 8192
+}

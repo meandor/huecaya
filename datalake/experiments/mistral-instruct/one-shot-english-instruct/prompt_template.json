@@ -1,0 +1,6 @@
+{
+  "template": "<s>[INST] You are an expert in linguistics and extract people with names from texts. A name can consist of a firstname and a lastname or of multiple of these. Names can also consist of titles. Extract from the following sentence the people.\nSentence: \"133742 externe Auftragsnummer: Diensthabender Arzt : Dr. med. Paola    Mertens, Dr. med. Peter Worms\"\nPeople:[/INST] Paola Mertens, Peter Worms\n###</s>\n[INST] Sentence: '{sentence}'\nPeople:[/INST]",
+  "variables": [
+    "sentence"
+  ]
+}

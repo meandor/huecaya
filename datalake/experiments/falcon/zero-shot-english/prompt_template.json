@@ -1,0 +1,6 @@
+{
+  "template": "You are an expert in linguistics and extract people with names from texts. A name can consist of a firstname and a lastname or of multiple of these. Names can also consist of titles. Extract from the following sentence the people.\nSentence: '{sentence}'\nPeople:",
+  "variables": [
+    "sentence"
+  ]
+}

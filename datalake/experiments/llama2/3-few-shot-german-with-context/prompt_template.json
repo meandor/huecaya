@@ -1,0 +1,6 @@
+{
+  "template": "Du bist ein Experte in Linguistik und extrahierst Namen von Personen aus Texten. Der Name kann aus Kombinationen aus einem Nachnamen, einem Vornamen, einem Titel oder einer Anrede bestehen. Es folgen Namen von Personen in den unten stehenden Beispielen.\nBeispiel: \"133742 externe Auftragsnummer: Diensthabender Arzt : Dr. med. Paola    Mertens, Dr. med. Peter Worms\"\nNamen von Personen: Dr. med. Paola Mertens, Dr. med. Peter Worms\n###\nBeispiel: Wert telefonisch durchgegeben                                           am: 22.07.23                                                            um: 13:37                                                               von: Petra Rams                                                     an: Tom                                                               Grenzwert (99. Perzentil) zum Ausschluss myokardialer Ischämie: 11 ng\nNamen von Personen: Petra Rams, Tom\n###\nBeispiel: 421338 Ct-Wert Target 1: Diensthabender Arzt : Dr. med. Hans-Peter      Lobeck\nNamen von Personen: Dr. med. Hans-Peter Lobeck\n###\nBeispiel: {sentence}\nNamen von Personen:",
+  "variables": [
+    "sentence"
+  ]
+}

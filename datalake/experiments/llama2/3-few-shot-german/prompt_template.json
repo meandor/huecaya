@@ -1,0 +1,6 @@
+{
+  "template": "Q: \"133742 externe Auftragsnummer: Diensthabender Arzt : Dr. med. Paola    Mertens, Dr. med. Peter Worms\"\nA: Dr. med. Paola Mertens, Dr. med. Peter Worms\n###\nQ: Wert telefonisch durchgegeben                                           am: 22.07.23                                                            um: 13:37                                                               von: Petra Rams                                                     an: Tom                                                               Grenzwert (99. Perzentil) zum Ausschluss myokardialer Ischämie: 11 ng\nA: Petra Rams, Tom\n###\nQ: 421338 Ct-Wert Target 1: Diensthabender Arzt : Dr. med. Hans-Peter      Lobeck\nA: Dr. med. Hans-Peter Lobeck\n###\nQ: {sentence}\nA:",
+  "variables": [
+    "sentence"
+  ]
+}
