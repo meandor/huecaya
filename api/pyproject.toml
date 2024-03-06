@@ -8,7 +8,7 @@ authors = ["Daniel Schruhl <danielschruhl@gmail.com>"]
 python = "~3.9"
 flask = "^3.0.1"
 gunicorn = "^21.2.0"
-langchain = "^0.1.4"
+langchain = "^0.1.11"
 transformers = "^4.37.1"
 llama-cpp-python = "^0.2.33"
 
